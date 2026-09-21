@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "攤位通",
+    "slug": "taiwaitong",
+    "version": "1.0.0",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.grost999.taiwaitong"
+    },
+    "android": {
+      "package": "com.grost999.taiwaitong"
+    }
+  }
+}
