@@ -8,6 +8,11 @@
     },
     "android": {
       "package": "com.grost999.taiwaitong"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1301506-f754-44d9-a78f-496cf1917083"
+      }
     }
   }
 }
