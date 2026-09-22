@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "攤位通",
-    "slug": "taiwaitong",
-    "owner": "grost999-team",
+    "slug": "stall-app",
+    "owner": "grost9999-team",
     "version": "1.0.0",
     "ios": {
       "bundleIdentifier": "com.grost999.taiwaitong"
@@ -10,5 +10,10 @@
     "android": {
       "package": "com.grost999.taiwaitong"
     },
+    "extra": {
+      "eas": {
+        "projectId": "e13d1506-f754-44d9-a78f-496cf1917883"
+      }
+    }
   }
 }
