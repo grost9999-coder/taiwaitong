@@ -1,18 +1,21 @@
 {
-  "expo": {
-    "name": "攤位通",
-    "slug": "stall-app",
-    "owner": "grost9999-team",
-    "version": "1.0.0",
-    "ios": {
-      "bundleIdentifier": "com.grost999.taiwaitong"
+  "cli": {
+    "version": ">= 12.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     },
-    "android": {
-      "package": "com.grost999.taiwaitong"
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     },
-    "extra": {
-      "eas": {
-        "projectId": "e1301506-f754-44d9-a78f-496cf1917083"
+    "production": {
+      "android": {
+        "buildType": "apk"
       }
     }
   }
